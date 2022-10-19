@@ -1,0 +1,53 @@
+body{
+  width: 1000px;
+}
+
+.header{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo{
+  font-size: 30px;
+
+}
+
+.navi{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents{
+  padding-top: 300px;
+  position: relative;
+}
+
+.contents>img{
+  position: absolute;
+  top: 100px;
+  right: 0;
+
+  width: 50%;
+  height: auto;
+}
+
+.main_text{
+  font-size: 60px;
+}
+
+.box_blue{
+  width: 800px;
+  height: 150px;
+  background: #00277E;
+}
+
+.navi_item {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navi_item:first-child {
+  margin-left: 0px;
+}
